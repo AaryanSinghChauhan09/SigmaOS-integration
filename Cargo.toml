@@ -1,0 +1,17 @@
+[package]
+name = "sigmaos-integration"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Project"]
+description = "Integration framework and bridges"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-integration"
+readme = "README.md"
+keywords = ["integration", "bridge", "api"]
+categories = ["development-tools"]
+
+[dependencies]
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+
+[profile.release]
+opt-level = 3
