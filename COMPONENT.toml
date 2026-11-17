@@ -3,12 +3,12 @@ name = "SigmaOS-integration"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "integration component"
+description = "SigmaOS component integration layer and glue code"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
